@@ -11,7 +11,7 @@ export type AppConfig = {
 
 const appConfig: AppConfig = {
   layoutType: LayoutTypes.CollapsibleAppShell,
-  apiPrefix: 'https://token2048.odd.rs/api/',
+  apiPrefix: 'http://token2048.odd.rs/api/',
   authenticatedEntryPath: '/dashboard',
   unAuthenticatedEntryPath: '/sign-in',
   enableMock: false,
